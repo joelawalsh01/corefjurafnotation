@@ -9,7 +9,9 @@ import numpy as np
 
 if __name__ == "__main__":
 	
-	text = open("firstgrade.txt").read()
+	#insert your text file path
+	
+	text = open("youtext.txt").read()
 	      
 	
 	predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz")
