@@ -3,29 +3,9 @@ import numpy as np
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 
 """
-	First run this from AllenNLP 2.0 main program : 
+	First run npyfromallen.py
     
-    #read in text
-	text = open("yourtext.txt").read()
-	
-	#initialize predictor for coref resolution, form prediction
-
-	predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz")
-	prediction = predictor.predict(document=text)
-
-	# write to csv and .npy
-
-	w = csv.writer(open("output.csv", "w"))	
-	for key, val in prediction.items():
-		w.writerow([key, val])
-
-	f = open("dict.txt","w")
-	f.write( str(prediction) )
-
-	f.close()
-
-	np.save('first_grade.npy', prediction) 
-
+  
 """
 
 
