@@ -14,7 +14,7 @@ from nltk.tokenize.treebank import TreebankWordDetokenizer
 # path: file path to .npy file holding coreference information
 
 
-def( path: str): -> str
+def pickel_to_latex( path: str): -> str
 
 	# read in dictionary
 	read_dictionary = np.load(path,allow_pickle='TRUE').item()
