@@ -45,7 +45,7 @@ def( path: str): -> str
 
 	full_tex_untokenized = TreebankWordDetokenizer().detokenize(full_tex)
 
-	return full_tex 
+	return full_tex_untokenized 
 
 
 # Results can be directly copy and pasted into overleaf
